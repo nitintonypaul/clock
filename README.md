@@ -33,6 +33,8 @@ Then just open `index.html` in your browser and watch time happen.
 
 ![image-alt](assets/clock-light.png)
 
+---
+
 ## 🧠 Fun Fact
 
 This clock is so advanced that it does nothing else. No alarms. No time zones. No atomic sync.
