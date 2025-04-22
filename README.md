@@ -29,6 +29,8 @@ Then just open `index.html` in your browser and watch time happen.
 
 ## 👀 Preview
 
+![image-alt](assets/clock-dark.png)
+
 ![image-alt](assets/clock-light.png)
 
 ## 🧠 Fun Fact
