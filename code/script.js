@@ -68,7 +68,6 @@ function styleshift() {
     const clock = document.getElementById("clock")
 
     clock.style.opacity = 0;
-
     setTimeout(() => {
         index = (index + 1) % fonts.length;
         clock.style.fontFamily = fonts[index];
@@ -79,16 +78,23 @@ style.addEventListener("click",styleshift)
 
 //Theme
 const theme = document.getElementById("theme")
+var themes = [
+    ["#000","#fff"], //Simple B&W
+    ["#fff","#000"], //Simple W&B
+    ["#2e3440","#d8dee9"], //NORD dark
+    ["#d8dee9","#2e3440"], //NORD light
+    ["#101820","#FEE715"], //Electric Charcoal
+    ["#FCF6F5","#990011"], //Christmas
+    ["#EA738D","#89ABE3"], //Bubblegum
+    ["#97BC62","#2C5F2D"] //Mossy Forest
+]
+var themeindex = 0
+
 function switcheroo() {
     const page = document.body
-    if (page.style.backgroundColor == "white") {
-        page.style.backgroundColor = "black"
-        page.style.color = "white"
-    }
-    else {
-        page.style.backgroundColor = "white"
-        page.style.color = "black"
-    }
+    themeindex = (themeindex+1)%themes.length
+    page.style.backgroundColor = themes[themeindex][0]
+    page.style.color = themes[themeindex][1]
 }
 theme.addEventListener("click", switcheroo)
 

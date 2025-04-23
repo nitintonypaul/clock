@@ -7,11 +7,6 @@
     display: none;
 }
 
-:root {
-    --base-color: black;
-    --accent-color: white;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -45,7 +40,7 @@ body {
 .navigation-element {
     padding: 0px 20px;
     text-decoration: none;
-    opacity: 0.7;
+    opacity: 0.5;
     font-family: dongle;
     font-size: 2rem;
     text-decoration: none;
@@ -56,7 +51,7 @@ body {
 
 .navigation-element:hover {
     opacity: 1;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 5px inherit;
 }
 
 .navigation-inactive {
@@ -72,7 +67,70 @@ body {
     font-size: 11rem;
     font-family: Limelight;
     letter-spacing: 1rem;
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
     transition: opacity 0.2s;
+}
+
+/*Media Queries... Yeah I know it's nuts*/
+@media only screen and (max-width: 1200px) {
+    .clock {
+        font-size: 9rem;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .clock {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .clock {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .clock {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .clock {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .clock {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .clock {
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    .clock {
+        font-size: 2rem;
+    }
+    .navigation-element {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .clock {
+        font-size: 2rem;
+    }
+    .navigation-element {
+        font-size: 1.5rem;
+        padding: 0px 10px;
+    }
 }
