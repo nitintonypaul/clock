@@ -29,9 +29,21 @@ Then just open `index.html` in your browser and watch time happen.
 
 ## 👀 Preview
 
-![image-alt](assets/clock-dark.png)
+![image-alt](assets/dark.png)
 
-![image-alt](assets/clock-light.png)
+![image-alt](assets/light.png)
+
+![image-alt](assets/nord-dark.png)
+
+![image-alt](assets/nord-light.png)
+
+![image-alt](assets/electric-charcoal.png)
+
+![image-alt](assets/christmas.png)
+
+![image-alt](assets/bubblegum.png)
+
+![image-alt](assets/mossy-forest.png)
 
 ---
 
