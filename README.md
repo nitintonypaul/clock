@@ -10,7 +10,7 @@ Welcome to an over-engineered JavaScript clock. It tells the time (just like you
 
 - ✅ Tells the current time (yes, that’s it).
 - ⏱️ Updates **every single second** – like it actually cares.
-- 🎨 A few fonts are present.
+- 🎨 Various Customisation options including 7 fonts and 8 themes. That's 56 unique clocks!
 - 📈 Zero dependencies. 100% vanilla JavaScript goodness.
 
 ---
