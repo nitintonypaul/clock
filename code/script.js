@@ -10,6 +10,7 @@ const seconds = document.getElementById("seconds")
 var secondToggle = 1
 function secondstoggle() {
     secondToggle ? secondToggle=0 : secondToggle=1
+    updateTime()
 }
 seconds.addEventListener("click",secondstoggle)
 
